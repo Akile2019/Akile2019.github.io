@@ -14,12 +14,15 @@ nav {
     background-color: #A8F0F0;
     text-align: right;
 }
-#vJ{
+
+#Vj{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 30px;
+    font-size: 35px;
     text-align: right;
     
 }
+
+
 
 .spatulaAndcookiem {
     border: 4px solid #C2E9E9;
@@ -30,14 +33,19 @@ nav {
     margin-left: 10px;
     overflow: auto;
     position: relative;
-    
 }
+
+
 .headertext {
-    font-size: 14pt;
+
+  font-size: 14pt;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+    
 .date {
     border-bottom: rgb(53, 187, 176) dashed 2px;
 }
+
 .imgs {
     float: right;
 }
@@ -46,12 +54,12 @@ nav {
   font-size: 25px;
   color:#209697;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  overflow: auto;
+
 }
 #listformat {
   align-content: left;
-  padding: 0;
-  margin: 20px;
+  padding:0;
+  margin: 10px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   
   overflow: auto;
@@ -60,7 +68,7 @@ nav {
 
 #friendList {
     border: 5px solid #209697;
-    background-color: rgb(145, 221, 221);
+    background-color: rgb(117, 211, 211);
     width: 16%;
     float: left;
     margin: 10px;
