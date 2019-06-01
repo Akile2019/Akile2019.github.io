@@ -46,15 +46,15 @@ nav {
   font-size: 25px;
   color:#209697;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  overflow: aouto;
+  overflow: auto;
 }
 #listformat {
   align-content: left;
   padding: 0;
-  margin: 20;
+  margin: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   
-  overflow: aouto;
+  overflow: auto;
 }
 
 
