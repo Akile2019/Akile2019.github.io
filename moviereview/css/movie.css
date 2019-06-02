@@ -4,6 +4,7 @@ font-family: Verdana, Tahoma, sans-serif;
 }
 #main {
     background-image: url(../images/background.png);
+    margin: 0%;
 }
 #top-banner {
     background-image: url(../images/bannerbg.png);
