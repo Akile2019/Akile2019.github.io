@@ -4,7 +4,6 @@ font-family: Verdana, Tahoma, sans-serif;
 }
 #main {
     background-image: url(../images/background.png);
-    margin: 0;
 }
 #top-banner {
     background-image: url(../images/bannerbg.png);
@@ -50,6 +49,8 @@ margin-right: auto;
     background-image: url(../images/rbg.png);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 20pt;
 }
 #movie-rating img {
     border-radius: 20px;
