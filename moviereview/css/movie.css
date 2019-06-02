@@ -1,0 +1,135 @@
+bady {
+font-size: 8pt;
+font-family: Verdana, Tahoma, sans-serif;
+}
+#main {
+    background-image: url(../images/background.png);
+    margin: 0;
+}
+#top-banner {
+    background-image: url(../images/bannerbg.png);
+    background-repeat: repeat-x;
+    
+}
+#top-banner img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
+#movie-title {
+    font-family: Tahoma , Verdana, sans-serif;
+    font-size: 24pt;
+    font-weight: bold;
+    text-shadow: 3px 3px #999999;
+    text-align: center;
+}
+#main-content {
+    width: 800px;
+    border: 4px gray solid;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#movie-detail {
+    float: right;
+    width: 250px;
+    background-color: #a2b964;
+    display: flex;
+    flex-direction: column; 
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 50%;
+
+}
+#movie-detail img {
+    border-top-right-radius: 20px;
+}
+#movie-rating {
+    background-image: url(../images/rbg.png);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#movie-rating img {
+    border-radius: 20px;
+}
+#rating-percent {
+    font-size: 48px; 
+    font-weight: bold;
+    color: red;
+}
+#viewer-review {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
+
+#left p.review {
+    background: #e8dc9b;
+    padding: 8px;
+    border: solid gray 2px ;
+    border-radius: 10px;
+    margin: 11px;
+
+}
+
+#left p.reviewer {
+    margin: 11px;
+}
+
+#left p.reviewer img {
+float: left;
+}
+#right p.review {
+    background: #e8dc9b;
+    padding: 8px;
+    border: solid gray 2px ;
+    border-radius: 10px;
+     margin: 11px; 
+
+}
+#right p.reviewer img {
+    float: left;
+}
+#right p.reviewer {
+    margin: 11px;
+}
+
+#left p.review img {
+    float: left;
+}
+#right p.review img {
+    float: left;
+}
+#validator {
+    float: right;
+    margin-top: 89%;
+    margin-right: 0%;
+}
+#pages {
+    border:  #a2b964;
+    border-bottom-left-radius: 20px; 
+    border-bottom-right-radius: 20px;
+    margin-bottom: 0%;
+    background-color: #a2b964;
+    text-align: center;
+}
+dt {
+    margin-top: 10pt;
+    margin-left: 10pt;
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+    
+    
+}
+dd {
+    font-family: Arial, sans-serif;
+    font-size: 8pt;
+    margin-top: 4.5pt;
+}
+
+#links {
+list-style-type: none;
+}
+
