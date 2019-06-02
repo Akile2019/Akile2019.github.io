@@ -1,24 +1,30 @@
 
 body {
-    margin-left: 20%;
-    margin-right: 20%;
+    /* margin-left: 20%;
+    margin-right: 20%; */
 }
 body, input, button {
     font-family: "Century Gothic",sans-serif;
     font-size: 20pt;
 }
-div {
-    margin: 3em;
-}
-#main {
-    width: 20%;
-}
-#heading {
-    width: 20%;
-}
-#heading img {
-    width: 250px;
-    height: 200px;
-    float: left;
 
+#main {
+    width: 70%;
+display: block;
+margin: auto;
+}
+
+#heading img {
+    
+    height: 150px;
+    float: left;
+    padding: 10px;
+}
+
+#heading h1{
+    padding-top: 50px;
+}
+
+#subtotal-container{
+    padding-top: 20px;
 }

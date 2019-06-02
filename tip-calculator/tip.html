@@ -1,46 +1,40 @@
 <!DOCTYPE html>
 <html>
-	<!--
+<!--
 	CSE 190M, Summer 2012
 	This file is a tip calculator page using JavaScript.
 	-->
-<script>
-function calcTip() {
-	//var subtotalElem = 
-	//var tipElem = 
-	var totalElem = document.getElementById('total');
-	//var subtotal = 
-	//var tip = 
-	var total = 100000;
-	totalElem.innerHTML = '$' + total;
-}
-
-</script>
-	<head>
-		<title>Tip Calculator</title>
-		<link href="css/tip.css" type="text/css" rel="stylesheet" />
-		<!-- <script src="tip.js" type="text/javascript"></script> -->
-	</head>
+<head>
+	<title>Tip Calculator</title>
+	<link href="css/tip.css" type="text/css" rel="stylesheet" />
+	<!-- <script src="tip.js" type="text/javascript"></script> -->
+	<script src="scripts/calc.js" type="text/javascript"></script>
+</head>
 
 
-	<body>
-		<div>
-		<h1 id="heading">
+<body>
+	<div id="main">
+		<div id="heading">
 			<img id="logo" src="images/calc.PNG" alt="++--**//" />
-			  Tip Calculator
-		</h1>
-
-		<div>
+			<h1>
+				Tip Calculator
+			</h1>
+		</div>
+		<br/>
+		<div id="subtotal-container">
 			<label><input id="subtotal" type="text" /> $ Subtotal</label>
 		</div>
+		<br/>
 
 		<div>
 			<label><input id="tip" type="text" /> % Tip</label>
 		</div>
+		<br/>
 
 		<div>
-			<button id="btn"  onclick="calcTip();">Calculate Tip</button>
+			<button id="btn" onclick="calcTip();">Calculate Tip</button>
 		</div>
+		<br/>
 
 		<hr />
 
@@ -49,5 +43,6 @@ function calcTip() {
 			<p id="total">$0.00</p>
 		</div>
 	</div>
-	</body>
+</body>
+
 </html>
