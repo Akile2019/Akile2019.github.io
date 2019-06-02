@@ -1,10 +1,12 @@
+
 bady {
 font-size: 8pt;
 font-family: Verdana, Tahoma, sans-serif;
+height: 100%;
 }
 #main {
     background-image: url(../images/background.png);
-    margin: 0%;
+
 }
 #top-banner {
     background-image: url(../images/bannerbg.png);
@@ -40,7 +42,7 @@ margin-right: auto;
     flex-direction: column; 
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    margin-bottom: 50%;
+    /* margin-bottom: 45%; */
 
 }
 #movie-detail img {
@@ -106,7 +108,7 @@ float: left;
 }
 #validator {
     float: right;
-    margin-top: 89%;
+    margin-top: 105%;
     margin-right: 0%;
 }
 #pages {
