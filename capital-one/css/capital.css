@@ -1,0 +1,16 @@
+
+#div-top{
+border: 0.5pt solid gray;
+background-color: lightgrey;
+margin-top: 0;
+margin-bottom: 80%;
+
+}
+
+#div-bottom{
+    border: 0.5pt solid gray;
+    background-color: lightgrey;
+    margin-bottom: 0;
+    margin-top: 80%;
+    
+    }
