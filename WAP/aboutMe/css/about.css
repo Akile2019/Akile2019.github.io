@@ -1,0 +1,38 @@
+body{
+    background-image: url(../images/b.png);
+    background-repeat: repeat;
+    
+    
+}
+#title{
+    background-color: lightblue;
+}
+h4 {
+    
+}
+h2{
+    display: inline;
+    background-color: lightgray;
+    font-family: 'Lucida Sans'; 
+    text-align: center;
+}
+h5{
+    
+}
+.about{
+   
+}
+#main{
+    width: 80%;
+    margin: auto;
+    padding-top: 5%;
+    border: solid 5px lightslategray;
+    border-radius: 10%;
+    background-color: rgb(218, 218, 218);
+}
+#content{
+    padding: 5%;
+}
+#validate{
+    margin-left: 20%;
+}
